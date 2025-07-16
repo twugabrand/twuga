@@ -1,6 +1,12 @@
 body {
   background-color: black;
   color: white;
+
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
 }
 
 #app {
@@ -9,6 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: "Special Gothic Expanded One", "wotfard", sans-serif;
 }
 
 h1 {
